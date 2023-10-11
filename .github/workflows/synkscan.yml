@@ -10,3 +10,4 @@ on: pull_request
         continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+
