@@ -9,3 +9,4 @@ on: pull_requestjobs
     continue-on-error: true
     env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+
